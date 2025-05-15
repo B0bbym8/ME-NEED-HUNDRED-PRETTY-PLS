@@ -1,4 +1,7 @@
 # ME-NEED-HUNDRED-PRETTY-PLS
+├── index.html
+├── style.css (if using an external stylesheet)
+└── other assets (images, scripts, etc.)
 This was a school project, but beneficial for information about reflexes and games, and websites to visit :)
 <!DOCTYPE html>
 <html lang="en">
