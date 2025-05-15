@@ -139,3 +139,114 @@ This was a school project but very useful for information about reflexes and gam
 
 </body>
 </html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="google-site-verification" content="YOUR_GOOGLE_CODE_HERE" />
+  <title>Video Games and Reflexes - Annotated Bibliography</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: white;
+      color: #333;
+      margin: 0;
+      padding: 20px;
+      transition: background-color 0.5s ease;
+    }
+    header {
+      text-align: center;
+      margin-bottom: 40px;
+      padding: 20px;
+      background: linear-gradient(to right, #6a11cb, #2575fc);
+      color: white;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    }
+    h1 {
+      font-size: 2.5em;
+      margin-bottom: 10px;
+      animation: fadeIn 2s ease-in-out;
+    }
+    h2 {
+      font-size: 1.8em;
+      margin-top: 30px;
+    }
+    .source {
+      background: #fefefe;
+      border-left: 6px solid #2575fc;
+      border-radius: 10px;
+      padding: 20px;
+      margin-bottom: 20px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .source:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 6px 20px rgba(0,0,0,0.2);
+    }
+    .citation {
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+    .summary {
+      line-height: 1.6;
+    }
+    @keyframes fadeIn {
+      from {opacity: 0; transform: translateY(-10px);}
+      to {opacity: 1; transform: translateY(0);}
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Annotated Bibliography</h1>
+    <p><strong>Research Question:</strong> What are reflexes and how can video games improve them?</p>
+  </header>
+
+  <div class="source">
+    <div class="citation">Coyle, Douglas. "The Power of Play: How Video Games Improve Brain Function." <em>Psychology Today</em>, 2014, www.psychologytoday.com/articles/2014.</div>
+    <div class="summary">
+      This article explores how video games are not just for fun, but also have a positive impact on brain function. Action games, such as first-person shooters (FPS), improve reflexes by challenging players to react quickly to ever-changing scenarios. These games help players make quick decisions under pressure, enhancing brain processing skills. Gaming leads to better decision-making and problem-solving in real-life. It shows that gaming in moderation boosts cognitive performance with real-world applications.
+    </div>
+  </div>
+
+  <div class="source">
+    <div class="citation">Garnett, Carla. “Do Video Games Improve Cognitive Performance?” <em>NIH Record</em>, 11 Nov. 2022, nihrecord.nih.gov/2022/11/11/do-video-games-improve-cognitive-performance.</div>
+    <div class="summary">
+      This NIH article presents a study where children who played games for 3+ hours daily performed better on thinking tests. Brain scans revealed increased activity in attention and memory areas, linking gaming with improved reflexes and cognitive performance. It offers scientific evidence using brain imaging to show enhanced thinking speed through video games.
+    </div>
+  </div>
+
+  <div class="source">
+    <div class="citation">Green, C. Shawn, and Daphne Bavelier. "Action Video Game Modifies Visual Selective Attention." <em>Nature</em>, vol. 423, no. 6939, 2003, pp. 534-537.</div>
+    <div class="summary">
+      This article shows how action games improve visual attention and selective focus. Players are better at filtering distractions and processing multiple pieces of information at once. These skills result in faster reaction times and better recognition of subtle visual cues, which are critical for reflexive responses.
+    </div>
+  </div>
+
+  <div class="source">
+    <div class="citation">Miech, E. J., and M. Williams. "Brain Benefits of Playing Video Games: Improving Reflexes and Motor Skills." <em>Journal of Cognitive Enhancement</em>, vol. 3, no. 2, 2019, pp. 215-224.</div>
+    <div class="summary">
+      This article discusses how platformers and adventure games requiring hand-eye coordination improve reaction time and movement. Games like "Super Mario" and "Minecraft" train players to respond quickly to sensory cues, improving motor skills in everyday situations.
+    </div>
+  </div>
+
+  <div class="source">
+    <div class="citation">Powers, Jason. "Reflexes and Reaction Time: How Gaming Affects Coordination." <em>Sports Psychology Review</em>, vol. 39, no. 1, 2017, pp. 75-82.</div>
+    <div class="summary">
+      Powers explores how sports and rhythm games enhance both mental and physical coordination. These games improve timing and hand-eye coordination, with skills transferring to real-life activities like sports or driving that demand fast reflexes.
+    </div>
+  </div>
+
+  <div class="source">
+    <div class="citation">Watts, T., and D. McKinley. "The Role of Video Games in Improving Reflex and Cognitive Skills." <em>Journal of Interactive Learning</em>, vol. 25, no. 4, 2018, pp. 199-205.</div>
+    <div class="summary">
+      The authors show that fast-paced games help players think and react quickly. Simulation and action titles improve decision-making and reflexes. Virtual environments enhance real-world readiness by strengthening mental flexibility and response speed.
+    </div>
+  </div>
+
+</body>
+</html>
