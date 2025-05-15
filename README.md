@@ -1,90 +1,40 @@
 # ME-NEED-HUNDRED-PRETTY-PLS
 This was a school project, but beneficial for information about reflexes and games, and websites to visit :)
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Video Games and Reflexes - Annotated Bibliography</title>
-
-  <!-- Google Search Console verification (replace YOUR_CODE_HERE) -->
-  <meta name="google-site-verification" content="YOUR_CODE_HERE" />
-
   <style>
     body {
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background: #ffffff;
+      font-family: Arial, sans-serif;
+      background: #f4f4f9;
       color: #333;
       margin: 0;
-      padding: 0 20px 40px;
-      transition: background 0.4s ease;
+      padding: 20px;
     }
-
     header {
       text-align: center;
-      background: linear-gradient(to right, #6a11cb, #2575fc);
-      color: white;
-      padding: 40px 20px;
-      border-radius: 0 0 30px 30px;
-      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-      animation: fadeInDown 1s ease;
+      margin-bottom: 40px;
     }
-
     h1 {
-      font-size: 2.5em;
+      font-size: 2em;
       margin-bottom: 10px;
     }
-
-    p {
-      font-size: 1.1em;
-      font-weight: 300;
-    }
-
     .source {
-      background: #f9f9f9;
-      border-left: 6px solid #6a11cb;
-      border-radius: 12px;
+      background: #fff;
+      border-radius: 10px;
       padding: 20px;
-      margin: 40px auto;
-      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
-      max-width: 900px;
-      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      margin-bottom: 40px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
     }
-
-    .source:hover {
-      transform: translateY(-5px);
-      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
-    }
-
     .citation {
       font-weight: bold;
       margin-bottom: 10px;
-      color: #6a11cb;
     }
-
     .summary {
       line-height: 1.6;
-    }
-
-    @keyframes fadeInDown {
-      from {
-        opacity: 0;
-        transform: translateY(-30px);
-      }
-      to {
-        opacity: 1;
-        transform: translateY(0);
-      }
-    }
-
-    @media (max-width: 600px) {
-      h1 {
-        font-size: 2em;
-      }
-
-      .source {
-        padding: 15px;
-      }
     }
   </style>
 </head>
