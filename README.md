@@ -1,9 +1,6 @@
 # ME-NEED-HUNDRED-PRETTY-PLS
 This was a school project, but beneficial for information about reflexes and games, and websites to visit :)
 <!DOCTYPE HTML>
-├── index.html
-├── style.css (if using an external stylesheet)
-└── other assets (images, scripts, etc.)
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
