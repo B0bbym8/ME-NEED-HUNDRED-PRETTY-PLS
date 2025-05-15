@@ -6,27 +6,33 @@ This was a school project, but beneficial for information about reflexes and gam
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Video Games and Reflexes - Annotated Bibliography</title>
-
-  <!-- Google Search Console verification (replace YOUR_CODE_HERE) -->
   <meta name="google-site-verification" content="YOUR_CODE_HERE" />
 
   <style>
     body {
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background: #ffffff;
-      color: #333;
       margin: 0;
       padding: 0 20px 40px;
-      transition: background 0.4s ease;
+      color: #333;
+      background: linear-gradient(-45deg, #6a11cb, #2575fc, #5f72bd, #9b23ea);
+      background-size: 400% 400%;
+      animation: gradientBG 15s ease infinite;
+    }
+
+    @keyframes gradientBG {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
     }
 
     header {
       text-align: center;
-      background: linear-gradient(to right, #6a11cb, #2575fc);
+      background: rgba(255, 255, 255, 0.1);
       color: white;
       padding: 40px 20px;
       border-radius: 0 0 30px 30px;
-      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+      backdrop-filter: blur(10px);
       animation: fadeInDown 1s ease;
     }
 
@@ -41,19 +47,21 @@ This was a school project, but beneficial for information about reflexes and gam
     }
 
     .source {
-      background: #f9f9f9;
+      background: rgba(255, 255, 255, 0.85);
       border-left: 6px solid #6a11cb;
       border-radius: 12px;
       padding: 20px;
       margin: 40px auto;
-      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
       max-width: 900px;
-      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      transition: transform 0.4s ease, box-shadow 0.4s ease, opacity 1s ease;
+      animation: fadeInUp 1s ease forwards;
+      opacity: 0;
     }
 
     .source:hover {
-      transform: translateY(-5px);
-      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+      transform: scale(1.02);
+      box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
     }
 
     .citation {
@@ -63,13 +71,25 @@ This was a school project, but beneficial for information about reflexes and gam
     }
 
     .summary {
-      line-height: 1.6;
+      line-height: 1.7;
+      font-size: 1.05em;
     }
 
     @keyframes fadeInDown {
       from {
         opacity: 0;
         transform: translateY(-30px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @keyframes fadeInUp {
+      from {
+        opacity: 0;
+        transform: translateY(40px);
       }
       to {
         opacity: 1;
@@ -88,8 +108,8 @@ This was a school project, but beneficial for information about reflexes and gam
     }
   </style>
 </head>
-<body>
 
+<body>
   <header>
     <h1>Annotated Bibliography</h1>
     <p><strong>Research Question:</strong> What are reflexes and how can video games improve them?</p>
@@ -136,7 +156,7 @@ This was a school project, but beneficial for information about reflexes and gam
       This article is about Watts and McKinley investigating how video games can enhance cognitive skills, particularly reflexes and quick thinking. The first key point is that games requiring fast decision-making, such as action games or simulations, help players develop faster reflexes. The second key point is that these games challenge players to think quickly, adapt to changes, and respond to real-time challenges. The third key point is that by practicing in virtual environments, players improve their ability to react swiftly to real-world situations. This is relevant to my research because it provides insight into how gaming can foster cognitive flexibility and quick reflexes that can be applied to everyday tasks. A unique helpful feature of this article is its focus on how cognitive skills, like decision-making and flexibility, can be developed and enhanced through gaming, benefiting real-life scenarios.
     </div>
   </div>
-
 </body>
 </html>
+
 
